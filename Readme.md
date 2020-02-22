@@ -22,4 +22,6 @@ If you're having link problems with compiling, this command works on my Raspberr
 
 `make linux LNKFLAGS="-lcurses -lcrypt -lresolv"`
 
+You can clone the original C-Kermit source by using the branch `NOFIX`:
 
+`git clone https://github.com/AmFobes/CKermit.git --branch=NOFIX`
